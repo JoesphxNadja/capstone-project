@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('127.0.0.1:3306', 'root', '', 'gallery');
+$connection = mysqli_connect('localhost', 'root', '', 'gallery');
 if(!$connection){
 	echo "Error: Unable to connect to MySQL." . PHP_EOL;
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
